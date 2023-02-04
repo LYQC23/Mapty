@@ -1,5 +1,5 @@
 'use strict';
-
+alert("使用到的绘制地图的API leafet需要科学上网，所以裸连的话地图不会显示")
 class Workout{
     date = new Date();
     id = (Date.now()+ '').slice(-10);
